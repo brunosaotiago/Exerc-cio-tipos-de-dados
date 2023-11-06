@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <script>
+        let nome = prompt('Digite o seu nome: ');
+        let salario = parseInt(prompt('Digite seu salário atual: '));
+        let idade = Number(prompt('digite a sua idade atual: '));
+        let diploma = prompt('você possui um diploma? ')
+        if (diploma == 'sim') {
+            alert('parabéns, você já possui um diploma')
+        } else {
+            alert('você ainda não tem um diplma')
+        }
+        document.write(`Aqui está o seu cadastro: Nome:${nome}, Idade:${idade}, Salário:${salario} e Possui diploma? ${diploma} `)
+    </script>
+</body>
+</html>
